@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sejarah Pemberantasan Korupsi Orde Lama</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #1d3557;
+      padding: 14px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #457b9d;
+    }
+
+    /* Konten utama */
+    main {
+      padding: 20px;
+    }
+
+    /* Section Style */
+    .section {
+      display: none;
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    h2 {
+      color: #1d3557;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p, ul {
+      font-size: 16px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav {
+        padding: 10px 15px;
+      }
+
+      nav a {
+        font-size: 14px;
+        padding: 8px 12px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p, ul {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="javascript:void(0)" onclick="showSection('pengantar')">Pengantar</a>
+    <a href="javascript:void(0)" onclick="showSection('latar')">Latar Belakang</a>
+    <a href="javascript:void(0)" onclick="showSection('upaya')">Upaya</a>
+    <a href="javascript:void(0)" onclick="showSection('hambatan')">Hambatan</a>
+    <a href="javascript:void(0)" onclick="showSection('kesimpulan')">Kesimpulan</a>
+    <a href="javascript:void(0)" onclick="showSection('timeline')">Timeline</a>
+  </nav>
+
+  <!-- Konten utama -->
+  <main>
+    <div id="pengantar" class="section active">
+      <h2>Pengantar</h2>
+      <p>Korupsi merupakan tantangan serius yang dihadapi hampir semua negara, termasuk Indonesia. Dari awal kemerdekaan, praktik korupsi telah mengakar dalam sistem birokrasi, pemerintahan, hingga kehidupan sosial. Pemberantasan korupsi telah menjadi fokus penting dalam berbagai era pemerintahan, termasuk masa Orde Lama.</p>
+      <p>Masa Orde Lama (1945–1966) dikenal sebagai era awal transisi menuju negara yang merdeka dan berdaulat. Namun, di balik upaya membangun negara, praktik-praktik koruptif juga mulai tumbuh, bahkan melembaga.</p>
+    </div>
+
+    <div id="latar" class="section">
+      <h2>Latar Belakang</h2>
+      <p>Setelah kemerdekaan, Indonesia mewarisi sistem birokrasi kolonial yang tidak demokratis dan rentan penyimpangan. Dalam suasana krisis ekonomi, konflik politik, dan minimnya sumber daya manusia, banyak pejabat negara menyalahgunakan kewenangannya.</p>
+      <p>Korupsi bukan hanya soal pencurian uang negara, tapi juga menjadi bagian dari alat politik, jaringan kekuasaan, bahkan mekanisme untuk bertahan hidup di tengah kekacauan pasca-kemerdekaan.</p>
+    </div>
+
+    <div id="upaya" class="section">
+      <h2>Upaya Pemberantasan Korupsi</h2>
+      <ul>
+        <li><strong>1957 – Panitia Retooling Aparatur Negara:</strong> Dibentuk untuk memperbaiki kinerja dan integritas birokrasi pemerintahan.</li>
+        <li><strong>1963 – Komisi Empat:</strong> Dibentuk oleh Presiden Soekarno untuk menelusuri dan menindak pelaku korupsi. Namun, komisi ini tidak memiliki kekuatan hukum yang memadai.</li>
+        <li><strong>Peringatan Presiden Soekarno:</strong> Dalam beberapa pidatonya, Soekarno sering menyuarakan keprihatinan atas korupsi, namun implementasi kebijakan belum efektif.</li>
+      </ul>
+      <p>Meskipun sudah ada upaya, pendekatan hukum dan penindakan saat itu masih sangat lemah, sehingga korupsi tetap tumbuh subur.</p>
+    </div>
+
+    <div id="hambatan" class="section">
+      <h2>Hambatan dalam Pemberantasan Korupsi</h2>
+      <ul>
+        <li><strong>Ketiadaan lembaga independen:</strong> Tidak ada institusi khusus dan berwenang menangani korupsi secara profesional.</li>
+        <li><strong>Pengaruh politik yang dominan:</strong> Banyak kasus korupsi tidak disentuh karena menyangkut kekuasaan atau pejabat penting.</li>
+        <li><strong>Sistem hukum lemah:</strong> Penegakan hukum tidak efektif, banyak kasus tidak diproses secara transparan.</li>
+        <li><strong>Kondisi negara tidak stabil:</strong> Situasi ekonomi dan politik yang genting membuat fokus pemerintah terbagi.</li>
+      </ul>
+    </div>
+
+    <div id="kesimpulan" class="section">
+      <h2>Kesimpulan</h2>
+      <p>Pada masa Orde Lama, meskipun terdapat kesadaran untuk mengatasi korupsi, upaya tersebut belum membuahkan hasil nyata. Lemahnya struktur hukum, absennya lembaga antikorupsi yang kuat, serta dominasi kekuasaan politik menyebabkan korupsi tetap berlangsung dan menjadi budaya.</p>
+      <p>Pelajaran penting dari masa ini adalah bahwa pemberantasan korupsi memerlukan dukungan sistem hukum yang kuat, lembaga pengawasan yang independen, dan komitmen politik yang berani.</p>
+    </div>
+
+    <div id="timeline" class="section">
+      <h2>Timeline Pemberantasan Korupsi Orde Lama</h2>
+      <ul>
+        <li><strong>1945:</strong> Proklamasi Kemerdekaan Indonesia.</li>
+        <li><strong>1957:</strong> Dibentuknya Panitia Retooling Aparatur Negara.</li>
+        <li><strong>1963:</strong> Pembentukan Komisi Empat oleh Presiden Soekarno.</li>
+        <li><strong>1965:</strong> Krisis politik dan ekonomi memperburuk kondisi negara.</li>
+        <li><strong>1966:</strong> Masa transisi ke Orde Baru; korupsi masih menjadi masalah besar.</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Script Navigasi -->
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
